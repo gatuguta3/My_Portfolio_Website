@@ -494,7 +494,7 @@
 <section class="project-hero">
     <div class="project-hero-container">
         <span class="project-category">Featured Project</span>
-        <h1 class="project-title">Exen Limited Kenya</h1>
+        <h1 class="project-title">Izone Fitness Center Kitengela</h1>
         <p class="project-subtitle">A Fully integrated e-learning management system built with moodle opensource code .</p>
         
         <div class="project-links">

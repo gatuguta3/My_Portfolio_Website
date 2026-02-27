@@ -48,9 +48,15 @@
                     }
 
                     /* ===== TYPOGRAPHY ===== */
-                    h1, h2, h3, h4, h5, h6 {
+                    h1, h2, h3, h4, h6 {
                         font-weight: 600;
                         line-height: 1.3;
+                    }
+
+                    h5{
+                        font-size: 1rem;
+                        color: var(--secondary-color);
+                        margin-bottom: 0.5rem;
                     }
 
                     .section-title {
@@ -356,6 +362,7 @@
                     .about {
                         padding: 6rem 2rem;
                         background: var(--light-bg);
+                        margin-bottom: 100px;
                     }
 
                     .dark .about {
@@ -523,6 +530,7 @@
                     .projects {
                         padding: 6rem 2rem;
                         background: var(--light-bg);
+                        margin-bottom: 100px;
                     }
 
                     .dark .projects {
@@ -1038,6 +1046,31 @@
                         box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.3);
                     }
 
+                    /* ===== services section ===== */
+
+                    .services {
+                        padding: 6rem 2rem;                        
+                        margin-bottom: 100px;
+                    }
+
+                    .services-info-lable {
+                        font-style: italic;
+                        color: var(--secondary-color, #2980b9);
+                    }
+
+                    .project-employer-description {
+                        color: var(--text-gray);
+                        font-size: 0.95rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    /* ===== WHY HIRE SECTION ===== */
+                    .why-hire-me {
+                        padding: 6rem 2rem;
+                        background: var(--light-bg);
+                        margin-bottom: 100px;
+                    }
+
     </style>
 
 
@@ -1332,6 +1365,8 @@
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#why-hire-me" class="nav-link">Why hire me </a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             
@@ -1368,7 +1403,7 @@
                             <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zM7.08 20.1H3.55V8.97h3.53v11.13zM5.31 7.47c-1.13 0-2.05-.92-2.05-2.05 0-1.13.92-2.05 2.05-2.05 1.13 0 2.05.92 2.05 2.05 0 1.13-.92 2.05-2.05 2.05zM20.1 20.1h-3.53v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.06V8.97h3.39v1.56h.05c.47-.89 1.62-1.83 3.33-1.83 3.56 0 4.22 2.34 4.22 5.39v6.01z"/>
                         </svg>
                     </a>
-                    <a href="#" class="social-link">
+                    <a href="https://x.com/GatugutaJ" class="social-link">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.104c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0021.577-4.826c.354-1.035.532-2.14.532-3.257 0-.247-.024-.492-.072-.734A9.986 9.986 0 0024 4.59a10.04 10.04 0 01-2.047.58z"/>
                         </svg>
@@ -1728,7 +1763,7 @@
                         </div>   
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>REST Api's (PHP) for mobile applications</span>
+                                <span>REST Api's (PHP) for web & mobile applications</span>
                                 <span>70%</span>
                             </div>
                             <div class="skill-bar">
@@ -1811,6 +1846,8 @@
             <p class="section-subtitle">Some of my recent work</p>
             
             <div class="projects-grid">
+
+
                 <div class="project-card">
                     <div class="project-image">
                         <img src="{{ asset('media/images/project_images/Clarence_Matheny_ministries.png')}}" alt="Project 1">
@@ -1827,8 +1864,10 @@
                     <div class="project-info">
                         <h3 class="project-title">E-Learning Platform</h3>
                         <p class="project-description">
-                            A fully fuctional E-leaning management system built  using moodle open source tool for Clarence Matheny Leadership Training Institute Limuru
+                            A fully fuctional E-leaning management system built  using moodle open source tool fully integrated with ERP system built using Odoo
                         </p>
+                        <p class="project-employer-description"><span class="services-info-lable"> My Employer - </span>  Amkatek Limited</p>
+                        <p class="project-employer-description"><span class="services-info-lable"> Client - </span>  Clarence Matheny Leadership Training Institute . Limuru </p>
                         <div class="project-tags">
                             <span class="project-tag">Php</span>
                             <span class="project-tag">Javascript</span>
@@ -1837,11 +1876,12 @@
                     </div>
                 </div>
 
+
                  <div class="project-card">
                     <div class="project-image">
                         <img src="{{ asset('media/images/project_images/Izone_Fitness_Kitengela.png')}}" alt="Project 2">
                         <div class="project-overlay">
-                            <a href="#" class="project-link">
+                            <a href="{{ route('projects.izone') }}" class="project-link">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -1853,8 +1893,9 @@
                     <div class="project-info">
                         <h3 class="project-title">Gym management system</h3>
                         <p class="project-description">
-                            A complete gym management system For IZONE FITNESS CENTER Kitengela
-                        </p>
+                            A complete gym management system completely built to manage all gym operations 
+                        </p>                        
+                        <p class="project-employer-description"><span class="services-info-lable"> Client - </span>  Izone Fitness Center . Kitengela</p>
                         <div class="project-tags">
                             <span class="project-tag">Python</span>
                             <span class="project-tag">Odoo</span>
@@ -1867,9 +1908,9 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                        <img src="{{ asset('media/images/project_images/gormahia_fc.jpeg')}}" alt="Project 3">
                         <div class="project-overlay">
-                            <a href="#" class="project-link">
+                            <a href="{{ route('projects.gormahia-fc') }}" class="project-link">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -1881,8 +1922,10 @@
                     <div class="project-info">
                         <h3 class="project-title">Gormahia Fc savings Group Mobile application</h3>
                         <p class="project-description">
-                            A modern Savings group mobile application fully configured to manage all Chama operations fo GORMAHIA FC
+                            A modern Savings group mobile application fully configured to manage all Chama operations 
                         </p>
+                        <p class="project-employer-description"><span class="services-info-lable"> My Employer - </span>  Amkatek Limited subcontracted by (Malipo Circles Lmited)</p>
+                        <p class="project-employer-description"><span class="services-info-lable"> Client - </span>  Gormahia Fc . Nairobi </p>
                         <div class="project-tags">
                             <span class="project-tag">Flutter</span>
                             <span class="project-tag">Php</span>
@@ -1896,7 +1939,7 @@
                     <div class="project-image">
                         <img src="https://via.placeholder.com/600x400" alt="Project 2">
                         <div class="project-overlay">
-                            <a href="#" class="project-link">
+                            <a href="{{ route('projects.exen-limited') }}" class="project-link">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -1948,6 +1991,249 @@
 
 
             </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="about-container">
+            <h2 class="section-title">My services</h2>
+            <p class="section-subtitle">What services do i offer ?</p>
+
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <h3>Website & E-commerce Development:</h3>
+                    <div class="skill-items">
+                       <p>
+                        I build and customize websites and e-commerce platforms using popular content management systems like WordPress and WooCommerce. I create visually appealing and user-friendly websites that are optimized for performance and search engines, ensuring a seamless online presence for businesses and individuals.
+                        For custom web applications, I utilize frameworks like Laravel and open-source technologies  like  Odoo to develop robust and scalable solutions tailored to specific business needs. Whether it's a simple informational website or a complex e-commerce platform, I have the skills and experience to deliver high-quality results that meet client requirements and exceed expectations.
+                    </p>
+
+                    <h5>
+                        Who might need this service ?
+                    </h5>
+
+                    <p><span class="services-info-lable">Clinic facilities - </span>
+                         For clinic facilities that are looking to establish an online presence or enhance their existing website, I can provide comprehensive web development services.
+                          This includes designing and developing a user-friendly website that showcases their services, provides essential information to patients, and allows for easy appointment scheduling.
+                           Additionally, I can integrate features such as online payment options and patient portals to improve the overall patient experience and streamline clinic operations.
+                    </p>
+                    <p><span class="services-info-lable">Production facilities / businesses - </span>
+                            For production facilities or businesses that want to expand their reach and sell products online, I can develop customized e-commerce platforms .
+                            These business are like bakeries, shirt printing shops , branding and printing  companies , Welding and fabrication workshops , furniture making workshops .
+                            I can create  user friendly and well detailed websites that can inform visiting customers clearly what they do ,the products they sell and can enable customers to book their services or order goods
+                    </p>
+                    <p><span class="services-info-lable">Service providers / businesses - </span>
+                         For service providers or businesses that want to establish an online presence and attract more customers, I can develop customized websites that effectively showcase their services and provide essential information to potential clients.
+                          These businesses include  salons, barbershops, spas, gyms, fitness centers , event management companies , hotels and lodges , transport and logistics companies etc.
+                           I can create visually appealing and user-friendly websites that highlight their services, provide contact information, and allow for easy appointment scheduling or service booking, ultimately helping them grow their customer base and increase revenue.
+                    </p>
+                    <p><span class="services-info-lable">Wholesalers and Retailer businesses - </span>
+                            For wholesalers and retailers that want to expand their reach and sell products online, I can develop customized e-commerce platforms.
+                            These businesses include  supermarkets, wholesale shops , retail shops , pharmacies , hardware shops , agrovet shops etc.
+                            I can create user-friendly and well-detailed websites that inform visiting customers clearly about the products they sell, provide an easy-to-navigate online catalog, and enable customers to place orders or make purchases directly through the website, ultimately helping them increase sales and grow their business.
+                    </p>
+                    <p><span class="services-info-lable">Non Governmental Organizations (NGOs) - </span>
+                            For NGOs that want to establish an online presence and effectively communicate their mission and impact, I can develop customized websites that showcase their work and engage with supporters.
+                            I can create visually appealing and user-friendly websites that highlight their projects, provide information about their initiatives, and allow for easy donation options or volunteer sign-ups, ultimately helping them raise awareness and garner support for their cause.
+                    </p>
+                    <p><span class="services-info-lable">Researchers - </span>
+                        Researchers being very detail oriented individuals  who need to share their resarch findings with everyone including the knowledgeable individuals and the random users looking for infomation online , 
+                        I can develop customized websites that effectively communicate their research findings and engage with a wider audience.
+                        They still can highlight their research projects, provide detailed information about their methodologies and results, and allow for easy sharing of their work through social media or academic platforms, ultimately helping them increase the visibility and impact of their research.
+                    </p>
+                    
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>E-Learning management systems & Training Solutions:</h3>
+                    <div class="skill-items">
+                       <p>
+                        I specialize in developing and implementing e-learning management systems using platforms like Moodle, which provide a comprehensive solution for online education and training. I can create customized e-learning platforms that are tailored to the specific needs of educational institutions, businesses, or organizations.
+                         These platforms can include features such as course management, content delivery, assessments, and user tracking to enhance the learning experience. Additionally, I can provide training solutions to help educators and trainers effectively utilize the e-learning platform and maximize its potential for delivering engaging and interactive online courses.
+                    </p>
+
+                    <h5>
+                        Who might need this service ?
+                    </h5>
+
+                    <p><span class="services-info-lable">Universities & Colleges - </span>
+                         Universities and colleges since covid-19 pandemic have become very interested in providing learning to their students online .
+                          A college being my first organization to work with , I have experience in deploying e-learning management systems for educational institutions and providing
+                           training to staff members on how to use the systems effectively. I can help universities and colleges establish a robust online learning environment that allows 
+                           them to continue delivering quality education to their students, even in remote or hybrid learning scenarios.
+                    </p>
+
+                    <p><span class="services-info-lable">Churches - </span>
+                         Since forever churches have always conducted tarining sessions to their member  eg. Sunday school classes , youth trainings , leadership training sessions etc. 
+                         With the current technological advancements and the need to reach a wider audience, churches can benefit from e-learning management systems to deliver their training content online.
+                          I can help churches set up e-learning platforms that allow them to provide training materials, conduct virtual classes, and engage with their congregation effectively, thus expanding their reach and impact beyond physical boundaries.
+                    </p>
+
+                    <p><span class="services-info-lable">Organizations / companies - </span>
+                         Companies and organizations have always conducted training sessions to their staff members or to new and seasonal employees to enhance their skills and knowledge.
+                          With the increasing demand for remote work and online learning, many companies are now looking to implement e-learning management systems to deliver training content to their employees.
+                          I can help organizations set up e-learning platforms that allow them to provide training materials, conduct virtual classes, and engage with their employees effectively, thus enhancing their workforce's skills and knowledge while accommodating remote work arrangements.
+                    </p>
+
+                    <p><span class="services-info-lable">Humanitarian foundations - </span>
+                            Humanitarian foundations often conduct training sessions for their staff members, volunteers, and beneficiaries to enhance their skills and knowledge in various areas such as disaster response, community development, and health education.
+                            With the increasing demand for remote work and online learning, many humanitarian foundations are now looking to implement e-learning management systems to deliver training content to their stakeholders.
+                            I can help humanitarian foundations set up e-learning platforms that allow them to provide training materials, conduct virtual classes, and engage with their staff members, volunteers, and beneficiaries effectively, thus enhancing their skills and knowledge while accommodating remote work arrangements.
+                     </p>
+                    
+                    </div>
+                </div>
+
+
+                <div class="skill-category">
+                    <h3>Mobile Application Development & Maintenance:</h3>
+                    <div class="skill-items">
+                       <p>
+                        I specialize in developing and maintaining mobile applications using frameworks like Flutter, which allows for cross-platform development for both Android and iOS. I can create customized mobile applications that are tailored to the specific needs of businesses, organizations, or individuals.
+                        These applications aim to solve different problems for users or organizations, such as improving customer engagement, streamlining operations, or providing convenient access to services. 
+                        Additionally, I provide ongoing maintenance and support to ensure that the mobile applications remain up-to-date, secure, and functional, thus maximizing their value and effectiveness for users.
+                    </p>
+
+                    <h5>
+                        Who might need this service ?
+                    </h5>
+
+                    <p><span class="services-info-lable">Businesses - </span>
+                         Businesses of all sizes can benefit from mobile applications to enhance customer engagement, streamline their internal operations, and provide convenient access to their products or services. 
+                          I can help businesses develop customized mobile applications that are tailored to their specific needs and goals, thus helping them reach a wider audience and increase their revenue and also ease running of their business.
+                    </p>
+                    </div>
+                </div>
+
+
+                <div class="skill-category">
+                    <h3>ERP & Business System Configuration and deployment</h3>
+                    <div class="skill-items">
+                       <p>
+                        I specialize in configuring and deploying ERP systems, particularly using Odoo, to help businesses streamline their operations and improve efficiency. I can customize and implement ERP solutions that are tailored to the specific needs of businesses, allowing them to manage various aspects of their operations such as inventory, sales, finance, and human resources in a centralized and integrated manner.
+                         With my expertise in ERP configuration and deployment, I can help businesses optimize their processes, enhance collaboration among departments, and gain valuable insights into their operations through data analytics and reporting features provided by the ERP system.
+                    </p>
+
+                     <h5>
+                        Who might need this service ?
+                    </h5>
+
+                    <p><span class="services-info-lable">Small and Medium Enterprises (SMEs) - </span>
+                         SMEs often face challenges in managing their operations efficiently due to limited resources and manual processes. 
+                          I can help SMEs configure and deploy ERP systems that are tailored to their specific needs, allowing them to streamline their operations, improve productivity, and make informed business decisions based on real-time data insights provided by the ERP system. This can ultimately help SMEs grow and compete effectively in their respective markets.
+                    </p>
+
+                    <p><span class="services-info-lable">Educational Institutions- </span>
+                         Educational institutions like colleges , universities , high schools , primary schools , virtual bootcamps etc have always needed ERP systems that can tend to their needs . Each institution has their custom needs 
+                         but common procedures in running their institutions . 
+                         My expertise comes in handy in automating all their operations using tools like Odoo ERP custom module development to help the institutions.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>System Administration & Server Management:</h3>
+                    <div class="skill-items">
+                       <p>
+                            I specialize in system administration and server management, particularly using Linux-based operating systems like Ubuntu. I can manage and maintain servers, ensuring their optimal performance, security, and reliability. 
+                            This includes tasks such as server setup and configuration, software installation and updates, security hardening, performance monitoring, and troubleshooting.
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Technical support and user training</h3>
+                    <div class="skill-items">
+                       <p>
+                        I bridge the gap between tech and non-tech users by writing easy-to-understand manuals and training staff on new software systems . In addition to this as users
+                        continue interacting with the systems I provide technical support to ensure smooth operations and address any issues that may arise, 
+                        thus ensuring a seamless user experience and maximizing the benefits of the implemented solutions.
+                    </p>
+                    <h5>
+                        Who might need this service ?
+                    </h5>
+                    <p><span class="services-info-lable">Hospitals - </span>
+                         Having interacted with Hospital management systems and developed multiple modules on the HMIS,I can comfortably conduct training sessions for staff on system usage and troubleshooting.</p>
+                    <p><span class="services-info-lable">Educational Institutions - </span> 
+                        After deploying an online learning platform using Moodle Open Source, configuring course content and user settings to enhance e-learning experiences.I have still conducted training sessions 
+                        to lectures and provided after service support to the institution technical personells . I can comfortably conduct support services to educational institutions</p>
+                    <p><span class="services-info-lable">Small and Medium Enterprises - </span> 
+                       For SME's which have automated their operations and are struggling to train their staff on their systems, I can provide comprehensive training and ongoing support.</p>
+                    <p><span class="services-info-lable">Any organization - </span> 
+                        For any organization that needs assistance in training staff or resolving daily staff issues on new software systems or providing ongoing technical support for all malfunctioning hardware resources in the organization.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Why Hire me section -->
+    <section id="why-hire-me" class="why-hire-me">
+        <div class="about-container">
+            <h2 class="section-title">Why Hire Me</h2>
+            <p class="section-subtitle">Why should you consider me as your go to software developer</p>
+
+            <h2 class="sub_section-title">For Companies & Organizations</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated and skilled backend developer with over 2 years of experience in software development. I have successfully executed over 4 software implementations  individually, leveraging open-source technologies.
+                        My expertise encompasses on backend development, primarily using PHP and Python. I have a proven track record in developing and deploying a range of software solutions,With this extensive experience, I am confident in my ability to adapt to any environment and successfully implement world-class solutions for any organization.
+
+                    </p>
+                    <p>
+                        I have experience in conducting knowledge transfer during training sessions for internal teams post-system development. This ensures that the organization can effectively utilize and maintain the implemented solutions, thus maximizing their value and impact.
+                    </p>
+                    <p>
+                        I have Strong communication skills.  
+                    </p>
+                    <p>
+                        I am a great team player and a fast learner.  
+                    </p>
+                    <p>
+                        I have a great capability of adapting to any environment be it onsite , remote or hybrid.  
+                    </p>
+                    <p>
+                        I can work fairly well under tight deadlines.  
+                    </p>
+                    
+                    
+                    
+                </div>                
+                
+            </div>
+
+             <hr class="section-separator">
+
+             <h2 class="sub_section-title">For Individual Clients</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated and skilled backend developer with over 2 years of experience in software development. I have successfully executed over 4 software implementations  individually, leveraging open-source technologies.
+                        My expertise encompasses on backend development, primarily using PHP and Python. I have a proven track record in developing and deploying a range of software solutions,With this extensive experience, I am confident in my ability to adapt to any environment and successfully implement world-class solutions for any organization.
+
+                    </p>
+                    <p>
+                        I have Strong communication skills, with experience in conducting knowledge transfer during training sessions for internal teams post-system development.
+                    </p>
+                    
+                    
+                </div>                
+                
+            </div>
+
+                       
         </div>
     </section>
     
@@ -2035,16 +2321,21 @@
                         <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-hire-me">Why Hire Me</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-links">
-                    <h4>Services</h4>
+                    <h4> My Services</h4>
                     <ul>
-                        <li><a href="#">Mobile App Development</a></li>
-                        <li><a href="#">API Integration</a></li>
-                        <li><a href="#">Consulting</a></li>
+                        <li><a href="#services">Website & E-commerce Development</a></li>
+                        <li><a href="#services">E-Learning management systems & Training Solutions</a></li>
+                        <li><a href="#services">Mobile Application Development & Maintenance</a></li>
+                        <li><a href="#services">ERP & Business System Configuration and deployment</a></li>
+                        <li><a href="#services">System Administration & Server Management</a></li>
+                        <li><a href="#services">Technical support and user training</a></li>
                     </ul>
                 </div>
             </div>
