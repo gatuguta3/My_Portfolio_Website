@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="My Portfolio - Web Developer & Designer">
     
-    <title>CLARENCE MATHENY MINISTRIES </title>
+    <title>Gormahia FC </title>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -832,24 +832,31 @@
     <div class="container">
         <h2 class="section-title">Related Projects</h2>
         <div class="related-grid">
-            <a href="#" class="related-card">
-                <img src="https://via.placeholder.com/300x200?text=E-Commerce" alt="E-Commerce Platform">
-                <h3>E-Commerce Platform</h3>
+            <a href="{{ route('projects.izone') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/Izone_Fitness_Kitengela.png')}}" alt="E-Learning Management System">
+                <h3>Gym Management System</h3>
                 <span class="related-link">View Project →</span>
             </a>
-            <a href="#" class="related-card">
-                <img src="https://via.placeholder.com/300x200?text=Portfolio" alt="Portfolio Website">
+            <a href="{{ route('projects.cmm') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/Clarence_Matheny_ministries.png')}}" alt="E-Learning Management System">
+                <h3>E-learning Management System</h3>
+                <span class="related-link">View Project →</span>
+            </a>
+            <a href="{{ route('projects.exen-limited') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/exen_limited.png')}}" alt="Portfolio Website">
+                <h3>Exen Limited E-commerce Management Platform</h3>
+                <span class="related-link">View Project →</span>
+            </a>
+            
+            <a href="{{ route('homepage') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/portfolio.png')}}" alt="Portfolio Website">
                 <h3>Portfolio Website</h3>
-                <span class="related-link">View Project →</span>
-            </a>
-            <a href="#" class="related-card">
-                <img src="https://via.placeholder.com/300x200?text=Analytics" alt="Analytics Dashboard">
-                <h3>Analytics Dashboard</h3>
                 <span class="related-link">View Project →</span>
             </a>
         </div>
     </div>
 </section>
+
 
 <!-- Back to Projects Button -->
 <div class="back-to-projects">

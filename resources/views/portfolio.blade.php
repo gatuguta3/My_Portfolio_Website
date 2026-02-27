@@ -1769,7 +1769,16 @@
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 70%"></div>
                             </div>
-                        </div>                          
+                        </div>   
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Biometric systems integration</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>                            
                         
                     </div>
                 </div>
@@ -1803,7 +1812,8 @@
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 70%"></div>
                             </div>
-                        </div>                          
+                        </div>      
+                                             
                         
                     </div>
                 </div>
@@ -1965,7 +1975,7 @@
                 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                        <img src="{{ asset('media/images/project_images/portfolio.png')}}" alt="Project 3">
                         <div class="project-overlay">
                             <a href="#" class="project-link">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1977,7 +1987,7 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-title">Portfolio Website</h3>
+                        <h3 class="project-title">My Portfolio Website</h3>
                         <p class="project-description">
                             A modern portfolio website with smooth animations and responsive design
                         </p>
@@ -2106,7 +2116,20 @@
                          Businesses of all sizes can benefit from mobile applications to enhance customer engagement, streamline their internal operations, and provide convenient access to their products or services. 
                           I can help businesses develop customized mobile applications that are tailored to their specific needs and goals, thus helping them reach a wider audience and increase their revenue and also ease running of their business.
                     </p>
+
+                     <p><span class="services-info-lable">Governmental and Non-governamental Organizations - </span>
+                        Governmental and non-governamental organizations can benefit from mobile applications to improve service delivery, enhance communication with citizens, and streamline internal operations.
+                        I can help these organizations develop customized mobile applications that are tailored to their specific needs and objectives, enabling them to provide more efficient and accessible services to their constituents.
+                    </p>
+                
+                     <p><span class="services-info-lable">Educational Institutions - </span>
+                        Educational institutions can benefit from mobile applications to enhance the learning experience, improve communication with students and parents, and streamline administrative tasks.
+                        I can help educational institutions develop customized mobile applications that are tailored to their specific needs and goals, enabling them to provide a more engaging and efficient educational experience for their students and stakeholders.
                     </div>
+
+                    <p><span class="services-info-lable">Students - </span>
+                        For all students who are looking to develop their own mobile applications for their final year projects or for their personal use, I can provide comprehensive mobile application development services that cater to their specific needs and goals, thus helping them bring their ideas to life and gain valuable experience in mobile app development.
+                    </p>
                 </div>
 
 
@@ -2143,6 +2166,29 @@
                             This includes tasks such as server setup and configuration, software installation and updates, security hardening, performance monitoring, and troubleshooting.
                             
                         </p>
+
+                        <h5>
+                            Who might need this service ?
+                        </h5>
+
+                        <p><span class="services-info-lable">Governmental and Non-governamental Organizations - </span>
+                            Governmental and non-governamental organizations often require robust and secure server infrastructure to support their operations and services. 
+                            I can help these organizations with system administration and server management to ensure that their servers are properly configured, maintained, and secured, thus enabling them to provide reliable and efficient services to their constituents.
+                        </p>
+
+                        <p><span class="services-info-lable">Fintech Organizations - </span>
+                            Fintech organizations often require secure and scalable server infrastructure to support their financial applications and services. 
+                            I can help these organizations with system administration and server management to ensure that their servers are properly configured, maintained, and secured, thus enabling them to provide reliable and efficient services to their constituents.
+                        </p>
+
+                        <p><span class="services-info-lable">Financial Organizations - </span>
+                            Financial organizations eg , banks, insurance companies, investment firms etc. require secure and scalable server infrastructure to support their financial applications and services. 
+                            I can help these organizations with system administration and server management to ensure that their servers are properly configured, maintained, and secured, thus enabling them to provide reliable and efficient services to their constituents.
+                        </p>
+
+
+
+
                     </div>
                 </div>
 
@@ -2206,6 +2252,27 @@
                     <p>
                         I can work fairly well under tight deadlines.  
                     </p>
+
+
+                    <h5>
+                        Roles am well fit for :
+                    </h5>
+                    <p>
+                        Junior Full stack developer  
+                    </p>
+                    <p>
+                        Junior Backend Developer  
+                    </p>
+                    <p>
+                        Junior ERP consultant  
+                    </p>
+                    <p>
+                        Android developer  
+                    </p>
+                    <p>
+                        IT support specialist  
+                    </p>
+
                     
                     
                     

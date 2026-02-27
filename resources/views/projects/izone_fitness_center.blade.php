@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="My Portfolio - Web Developer & Designer">
     
-    <title>CLARENCE MATHENY MINISTRIES </title>
+    <title>Izone Fitness Center</title>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -90,6 +90,7 @@
         .project-results,
         .related-projects {
             padding: 5rem 0;
+            background: rgba(255, 255, 255, 0.74);
         }
 
         .project-overview {
@@ -196,7 +197,7 @@
 
         .tech-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
@@ -252,7 +253,7 @@
 
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
             gap: 1.5rem;
             margin-top: 3rem;
         }
@@ -494,8 +495,8 @@
 <section class="project-hero">
     <div class="project-hero-container">
         <span class="project-category">Featured Project</span>
-        <h1 class="project-title">Izone Fitness Center Kitengela</h1>
-        <p class="project-subtitle">A Fully integrated e-learning management system built with moodle opensource code .</p>
+        <h1 class="project-title">Gym and Fitness management system</h1>
+        <p class="project-subtitle">A gym and fitness center system built with Odoo and fully configured to manage memberships, classes, and payments.</p>
         
         <div class="project-links">
             <a href="https://learn.cmlti.co.ke/" class="btn btn-primary" target="_blank">
@@ -522,25 +523,26 @@
             <div class="overview-content">
                 <h2>Project Overview</h2>
                 <p>
-                   A Fully integrated e-learning management system built with moodle opensource code . I completely configured it to meeet the needs for their bible college and completely configured it with their ERP for student account management and  grades managemnet 
+                    Izone Fitness Center management system is a comprehensive gym management system designed to streamline operations and enhance management experience.
+                     Built with Odoo, it offers features like membership management, class scheduling, payment tracking, and access control. The system provides real-time updates and analytics to help Izone fitness owners make informed decisions and improve customer satisfaction.
                 </p>
                 
                 <div class="quick-info">
                     <div class="info-item">
                         <span class="info-label">Client</span>
-                        <span class="info-value">Internal Project</span>
+                        <span class="info-value">Izone Fitness </span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Timeline</span>
-                        <span class="info-value">3 Months</span>
+                        <span class="info-value">6 Months</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Team Size</span>
-                        <span class="info-value">4 Developers</span>
+                        <span class="info-value">1 Developer</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Role</span>
-                        <span class="info-value">Lead Developer</span>
+                        <span class="info-value">Sole Developer</span>
                     </div>
                 </div>
             </div>
@@ -566,8 +568,8 @@
                         <line x1="3" y1="10" x2="21" y2="10"></line>
                     </svg>
                 </div>
-                <h3>Task Management</h3>
-                <p>Create, assign, and track tasks with priorities, due dates, and attachments. Organize tasks into projects and categories.</p>
+                <h3>Member Management</h3>
+                <p>The system fully allows creation of new members , stores their details fully secure. This includes personal information, membership type, and subscription status.</p>
             </div>
             
             <div class="feature-card">
@@ -579,8 +581,8 @@
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                 </div>
-                <h3>Team Collaboration</h3>
-                <p>Real-time updates, comments, and mentions. Team members can collaborate seamlessly on shared tasks and projects.</p>
+                <h3>Customer Relationship Management</h3>
+                <p>Using Members information eg  phone number , I built a custom CRM which allows management to communicate with their customers using SMS and Email.They send reminder emails and sms of payments, membership renewal , and attendance .</p>
             </div>
             
             <div class="feature-card">
@@ -590,8 +592,8 @@
                         <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
                 </div>
-                <h3>Time Tracking</h3>
-                <p>Track time spent on tasks with built-in timer. Generate reports to analyze productivity and project hours.</p>
+                <h3>Payment Tracking</h3>
+                <p>The system efficiently Tracks payments made by members and generate reports to analyze revenue and payment trends. Thus this does the heavylifting in tracking unpaid subscriptions</p>
             </div>
             
             <div class="feature-card">
@@ -602,8 +604,8 @@
                         <line x1="12" y1="22" x2="12" y2="12"></line>
                     </svg>
                 </div>
-                <h3>File Sharing</h3>
-                <p>Upload and share files directly within tasks. Support for images, documents, and other file types.</p>
+                <h3>Subscription Management</h3>
+                <p>The system allows management to easily create, update, and cancel subscriptions for members. It also provides automated renewal reminders and handles subscription expiration gracefully and by sending reminder sms to members.</p>
             </div>
             
             <div class="feature-card">
@@ -614,8 +616,8 @@
                         <line x1="6" y1="20" x2="6" y2="14"></line>
                     </svg>
                 </div>
-                <h3>Analytics Dashboard</h3>
-                <p>Visual insights into team performance, task completion rates, and project progress with interactive charts.</p>
+                <h3>Classes and Activities scheduling</h3>
+                <p>The system allows management to schedule and manage classes and activities for members. It provides a visual calendar view to easily see upcoming events and manage member attendance and trainer scheduling.</p>
             </div>
             
             <div class="feature-card">
@@ -633,8 +635,8 @@
                         <path d="M16 18h.01"></path>
                     </svg>
                 </div>
-                <h3>Kanban Board</h3>
-                <p>Visual task management with drag-and-drop Kanban boards. Customize columns to match your workflow.</p>
+                <h3>Access control</h3>
+                <p>The system is integrated to a Biometric system thus enabling a secure control structure whereby only members who have renewed their subscriptions are granted access to the facility. This ensures that only active members can use the gym's services.</p>
             </div>
         </div>
     </div>
@@ -645,29 +647,27 @@
     <div class="container">
         <h2 class="section-title">Technology Stack</h2>
         <div class="tech-grid">
+
             <div class="tech-category">
                 <h3>Frontend</h3>
                 <ul class="tech-list">
                     <li>
-                        <span class="tech-name">React.js</span>
+                        <span class="tech-name">Javascript</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                     <li>
-                        <span class="tech-name">Redux Toolkit</span>
+                        <span class="tech-name">CSS</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                     <li>
-                        <span class="tech-name">Tailwind CSS</span>
+                        <span class="tech-name">Xml</span>
                         <span class="tech-level">Intermediate</span>
                     </li>
                     <li>
-                        <span class="tech-name">React Router</span>
+                        <span class="tech-name">Odoo Qweb</span>
                         <span class="tech-level">Advanced</span>
                     </li>
-                    <li>
-                        <span class="tech-name">Axios</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
+                    
                 </ul>
             </div>
             
@@ -675,25 +675,22 @@
                 <h3>Backend</h3>
                 <ul class="tech-list">
                     <li>
-                        <span class="tech-name">Laravel</span>
+                        <span class="tech-name">Odoo Framework</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                     <li>
-                        <span class="tech-name">MySQL</span>
+                        <span class="tech-name">Python</span>
+                        <span class="tech-level">Advanced</span>
+                    </li>
+                    <li>
+                        <span class="tech-name">Postgres</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                     <li>
                         <span class="tech-name">RESTful API</span>
                         <span class="tech-level">Advanced</span>
                     </li>
-                    <li>
-                        <span class="tech-name">Laravel Sanctum</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
-                    <li>
-                        <span class="tech-name">Redis</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
+                    
                 </ul>
             </div>
             
@@ -708,20 +705,31 @@
                         <span class="tech-name">Docker</span>
                         <span class="tech-level">Intermediate</span>
                     </li>
-                    <li>
-                        <span class="tech-name">AWS EC2</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
-                    <li>
-                        <span class="tech-name">GitHub Actions</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
+                    
                     <li>
                         <span class="tech-name">Postman</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                 </ul>
             </div>
+
+            <div class="tech-category">
+                <h3>3rd Part API integrations</h3>
+                <ul class="tech-list">
+                    <li>
+                        <span class="tech-name">Paystack API</span>
+                        <span class="tech-level">Payment tracking</span>
+                    </li>
+                    <li>
+                        <span class="tech-name">Hostpinnacle sms Api</span>
+                        <span class="tech-level">SMS notifications</span>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -732,27 +740,39 @@
         <h2 class="section-title">Project Gallery</h2>
         <div class="gallery-grid">
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/600x400?text=Dashboard" alt="Dashboard View">
+                <img src="{{ asset('media/images/project_images/izone_fitness_images/dashboard.png')}}" alt="Dashboard View">
                 <div class="gallery-overlay">
                     <span>Dashboard</span>
                 </div>
             </div>
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/600x400?text=Task+Board" alt="Task Board">
+                <img src="{{ asset('media/images/project_images/izone_fitness_images/membership_management.png')}}" alt="Member dashboard">
                 <div class="gallery-overlay">
-                    <span>Task Board</span>
+                    <span>Membership Management</span>
                 </div>
             </div>
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/600x400?text=Analytics" alt="Analytics">
+                <img src="{{ asset('media/images/project_images/izone_fitness_images/member_detail_page.png')}}" alt="Analytics">
                 <div class="gallery-overlay">
-                    <span>Analytics</span>
+                    <span>Member Profile Page</span>
                 </div>
             </div>
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/600x400?text=Team+Chat" alt="Team Chat">
+                <img src="{{ asset('media/images/project_images/izone_fitness_images/activity_class_page.png')}}" alt="Activity Class Page">
                 <div class="gallery-overlay">
-                    <span>Team Chat</span>
+                    <span>Activity and Classes Management</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="{{ asset('media/images/project_images/izone_fitness_images/daily_attendance.png')}}" alt="Daily Attendance">
+                <div class="gallery-overlay">
+                    <span>Daily Attendance</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="{{ asset('media/images/project_images/izone_fitness_images/payment_dashboard.png')}}" alt="Payment Dashboard">
+                <div class="gallery-overlay">
+                    <span>Payments Management Dashboard</span>
                 </div>
             </div>
         </div>
@@ -801,11 +821,11 @@
         <div class="results-stats">
             <div class="stat-card">
                 <div class="stat-value">40%</div>
-                <div class="stat-label">Increase in Team Productivity</div>
+                <div class="stat-label">Increase in management efficiency</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">500+</div>
-                <div class="stat-label">Tasks Completed Monthly</div>
+                <div class="stat-value">200+</div>
+                <div class="stat-label">Memberships managed Monthly</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value">100%</div>
@@ -818,10 +838,10 @@
         </div>
         
         <div class="testimonial">
-            <p>"The CMM Task Management App has transformed how our team works. It's intuitive, powerful, and has significantly improved our productivity."</p>
+            <p>"The management system has greately improved how we manage our subscription, how we pass information to our customers .We can now easily track how all our members attend the gym"</p>
             <div class="testimonial-author">
-                <strong>Jane Smith</strong>
-                <span>Project Manager, Tech Corp</span>
+                <strong>Larry (The Predator)</strong>
+                <span> Manager, Izone Fitness Center</span>
             </div>
         </div>
     </div>
@@ -832,21 +852,27 @@
     <div class="container">
         <h2 class="section-title">Related Projects</h2>
         <div class="related-grid">
-            <a href="#" class="related-card">
-                <img src="https://via.placeholder.com/300x200?text=E-Commerce" alt="E-Commerce Platform">
-                <h3>E-Commerce Platform</h3>
+            <a href="{{ route('projects.cmm') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/Clarence_Matheny_ministries.png')}}" alt="E-Learning Management System">
+                <h3>E-learning Management System</h3>
                 <span class="related-link">View Project →</span>
             </a>
-            <a href="#" class="related-card">
-                <img src="https://via.placeholder.com/300x200?text=Portfolio" alt="Portfolio Website">
+            <a href="{{ route('projects.exen-limited') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/exen_limited.png')}}" alt="Portfolio Website">
+                <h3>Exen Limited E-commerce Management Platform</h3>
+                <span class="related-link">View Project →</span>
+            </a>
+            <a href="{{ route('projects.gormahia-fc') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/gormahia_fc.jpeg')}}" alt="Gormahia Fc mobile Application">
+                <h3>Gormahia Fc mobile Application</h3>
+                <span class="related-link">View Project →</span>
+            </a>
+            <a href="{{ route('homepage') }}" class="related-card">
+                <img src="{{ asset('media/images/project_images/portfolio.png')}}" alt="Portfolio Website">
                 <h3>Portfolio Website</h3>
                 <span class="related-link">View Project →</span>
             </a>
-            <a href="#" class="related-card">
-                <img src="https://via.placeholder.com/300x200?text=Analytics" alt="Analytics Dashboard">
-                <h3>Analytics Dashboard</h3>
-                <span class="related-link">View Project →</span>
-            </a>
+            
         </div>
     </div>
 </section>
