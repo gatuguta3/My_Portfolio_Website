@@ -787,27 +787,27 @@
             <div class="challenge-item">
                 <div class="challenge-number">01</div>
                 <div class="challenge-content">
-                    <h3>Real-time Updates</h3>
-                    <p><strong>Challenge:</strong> Implementing real-time updates without overwhelming the server or causing performance issues.</p>
-                    <p><strong>Solution:</strong> Used Laravel Echo with WebSockets for efficient real-time communication. Implemented throttling and debouncing to optimize server load.</p>
+                    <h3>Real-time payment monitoring</h3>
+                    <p><strong>Challenge:</strong> Implementing a reliable 3rd party paymentsolution to enable the system to monitor real-time payments efficiently and accurately.</p>
+                    <p><strong>Solution:</strong> Integrated a third-party payment gateway (PAYSTACK) to monitor all bank payments , card payments made to the business account and recorded them into the system reflecting to the respective customers.</p>
                 </div>
             </div>
             
             <div class="challenge-item">
                 <div class="challenge-number">02</div>
                 <div class="challenge-content">
-                    <h3>Complex Task Relationships</h3>
-                    <p><strong>Challenge:</strong> Managing complex relationships between tasks, subtasks, dependencies, and assignments.</p>
-                    <p><strong>Solution:</strong> Designed a robust database schema with polymorphic relationships. Implemented eager loading to optimize queries.</p>
+                    <h3>Access control</h3>
+                    <p><strong>Challenge:</strong> Deciding which biometrics devices to use and implementing their API'S to the system.</p>
+                    <p><strong>Solution:</strong> Chose a reliable biometric device (ZKTECO) and integrated its API into the system to enable secure access control for members.</p>
                 </div>
             </div>
             
             <div class="challenge-item">
                 <div class="challenge-number">03</div>
                 <div class="challenge-content">
-                    <h3>Drag-and-Drop Interface</h3>
-                    <p><strong>Challenge:</strong> Creating a smooth drag-and-drop experience that updates in real-time.</p>
-                    <p><strong>Solution:</strong> Used React DnD library with optimistic updates. Implemented debounced API calls to prevent excessive requests.</p>
+                    <h3>Customer Relationship Management</h3>
+                    <p><strong>Challenge:</strong> Implementing a full CRM system to work co currently with the gym membership management system.</p>
+                    <p><strong>Solution:</strong> Developed a custom CRM module within the gym system to effectively send automated messages to customers thus enhacing business & customer relationship.</p>
                 </div>
             </div>
         </div>

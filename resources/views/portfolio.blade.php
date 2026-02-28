@@ -1947,7 +1947,7 @@
                 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                        <img src="{{ asset('media/images/project_images/exen_limited.png')}}" alt="Project 2">
                         <div class="project-overlay">
                             <a href="{{ route('projects.exen-limited') }}" class="project-link">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -2292,8 +2292,38 @@
 
                     </p>
                     <p>
-                        I have Strong communication skills, with experience in conducting knowledge transfer during training sessions for internal teams post-system development.
+                       I have worked with individual clients to develop customized software solutions that meet their specific needs and goals.
+                        I have experience in understanding client requirements, providing tailored solutions, and delivering high-quality results that exceed client expectations.
                     </p>
+                    <p>
+                        And remember , no matter how tight your schedule is or no matter how complex your software needs are , <h5> I will deliver ! You just have to trust me !</h5>
+                    </p>
+
+                    <h5>
+                        To my esteemed individual clients , Who am i to you:
+                    </h5>
+
+                    <p>
+                        Android developer  
+                    </p>
+
+                    <p>
+                        Website developer  
+                    </p>
+
+                    <p>
+                        ERP consultant  
+                    </p>
+
+                    <p>
+                        E-learning system developer  
+                    </p>
+
+                    <p>
+                        Software consultant  
+                    </p>
+
+
                     
                     
                 </div>                
@@ -2377,7 +2407,7 @@
                 <div>
                     <a href="/" class="footer-logo">Portfolio</a>
                     <p class="footer-description">
-                        Creating beautiful and functional web experiences.
+                        Creating functional and scalable software solutions.
                     </p>
                 </div>
                 

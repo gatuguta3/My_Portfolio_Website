@@ -494,22 +494,21 @@
 <section class="project-hero">
     <div class="project-hero-container">
         <span class="project-category">Featured Project</span>
-        <h1 class="project-title">Exen Limited Kenya</h1>
-        <p class="project-subtitle">A Fully integrated e-learning management system built with moodle opensource code .</p>
+        <h1 class="project-title">Exen Limited Mobile Application</h1>
+        <p class="project-subtitle">A complete e-commerce mobile application fully integrated with an admin web to oversee all the orders, users, products and categories. .</p>
         
         <div class="project-links">
-            <a href="https://learn.cmlti.co.ke/" class="btn btn-primary" target="_blank">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-                </svg>
-                Live Demo
-            </a>
-            <a href="https://github.com/Amkatek-Limited/moodle_elearning_platform" class="btn btn-secondary" target="_blank">
+            <a href="https://github.com/gatuguta3/Exen_Limited" class="btn btn-secondary" target="_blank">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                 </svg>
-                View Code
+                View Admin Web Code
+            </a>
+            <a href="https://github.com/gatuguta3/exenlimited" class="btn btn-secondary" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                View Mobile App Code
             </a>
         </div>
     </div>
@@ -522,25 +521,29 @@
             <div class="overview-content">
                 <h2>Project Overview</h2>
                 <p>
-                   A Fully integrated e-learning management system built with moodle opensource code . I completely configured it to meeet the needs for their bible college and completely configured it with their ERP for student account management and  grades managemnet 
+                  A complete e-commerce mobile application fully integrated with an admin web to oversee all the orders, users, products and categories.
+                   The mobile application is built with flutter and the backend is built with php and mysql database. The project was built for Exen Limited
+                    a Kenyan based company that provides e-commerce solutions to businesses. The project was built as a final year university project and it
+                     was a great learning experience for me as a developer. I was able to learn how to build a complete e-commerce application from scratch 
+                     and also how to integrate it with an admin web. The project was a success and it was well received by the university.
                 </p>
                 
                 <div class="quick-info">
                     <div class="info-item">
                         <span class="info-label">Client</span>
-                        <span class="info-value">Internal Project</span>
+                        <span class="info-value">Final year University Project</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Timeline</span>
-                        <span class="info-value">3 Months</span>
+                        <span class="info-value">6 Months</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Team Size</span>
-                        <span class="info-value">4 Developers</span>
+                        <span class="info-value">1 Developers</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Role</span>
-                        <span class="info-value">Lead Developer</span>
+                        <span class="info-value">Sole Developer</span>
                     </div>
                 </div>
             </div>
@@ -649,25 +652,22 @@
                 <h3>Frontend</h3>
                 <ul class="tech-list">
                     <li>
-                        <span class="tech-name">React.js</span>
+                        <span class="tech-name">Flutter</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                     <li>
-                        <span class="tech-name">Redux Toolkit</span>
+                        <span class="tech-name">HTML</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                     <li>
-                        <span class="tech-name">Tailwind CSS</span>
+                        <span class="tech-name">Bootstrap CSS</span>
                         <span class="tech-level">Intermediate</span>
                     </li>
                     <li>
-                        <span class="tech-name">React Router</span>
+                        <span class="tech-name">JavaScript</span>
                         <span class="tech-level">Advanced</span>
                     </li>
-                    <li>
-                        <span class="tech-name">Axios</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
+                    
                 </ul>
             </div>
             
@@ -675,7 +675,7 @@
                 <h3>Backend</h3>
                 <ul class="tech-list">
                     <li>
-                        <span class="tech-name">Laravel</span>
+                        <span class="tech-name">Php</span>
                         <span class="tech-level">Advanced</span>
                     </li>
                     <li>
@@ -686,14 +686,7 @@
                         <span class="tech-name">RESTful API</span>
                         <span class="tech-level">Advanced</span>
                     </li>
-                    <li>
-                        <span class="tech-name">Laravel Sanctum</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
-                    <li>
-                        <span class="tech-name">Redis</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
+                    
                 </ul>
             </div>
             
@@ -704,14 +697,7 @@
                         <span class="tech-name">Git/GitHub</span>
                         <span class="tech-level">Advanced</span>
                     </li>
-                    <li>
-                        <span class="tech-name">Docker</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
-                    <li>
-                        <span class="tech-name">AWS EC2</span>
-                        <span class="tech-level">Intermediate</span>
-                    </li>
+
                     <li>
                         <span class="tech-name">GitHub Actions</span>
                         <span class="tech-level">Intermediate</span>
