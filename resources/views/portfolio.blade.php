@@ -1064,11 +1064,41 @@
                         margin-bottom: 1rem;
                     }
 
+                    .skill-image-container {
+                        margin: 10px 0;
+                        text-align: center;
+                    }
+
+                    .skill-image {
+                        max-width: 1000px;
+                        height: auto;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    }
+
+                    /* Optional: Add different styling for mobile devices */
+                    @media (max-width: 768px) {
+                        .skill-image {
+                            width: 100%;
+                            border-radius: 4px;
+                        }
+                    }
+
                     /* ===== WHY HIRE SECTION ===== */
                     .why-hire-me {
                         padding: 6rem 2rem;
                         background: var(--light-bg);
                         margin-bottom: 100px;
+                    }
+
+
+                    .btn-download {
+                        background-color: #4CAF50; /* Green color - you can change this */
+                        color: white;
+                    }
+
+                    .btn-download:hover {
+                        background-color: #45a049; /* Darker green on hover */
                     }
 
     </style>
@@ -1391,6 +1421,7 @@
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
                     <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="public/media/documents/JOSEPH GATUGUTA CV 2025.docx" download class="btn btn-download">Resume</a>
                 </div>
                 <div class="social-links">
                     <a href="https://github.com/gatuguta3" class="social-link">
@@ -2013,6 +2044,9 @@
             <div class="skills-grid">
 
                 <div class="skill-category">
+                     <div class="skill-image-container">
+                        <img src="{{ asset('media/images/services_images/web_services.jpeg')}}" alt="web development services">
+                    </div>
                     <h3>Website & E-commerce Development:</h3>
                     <div class="skill-items">
                        <p>
@@ -2059,6 +2093,9 @@
                 </div>
 
                 <div class="skill-category">
+                    <div class="skill-image-container">
+                        <img src="{{ asset('media/images/services_images/e_learning.jpeg')}}" alt="web development services">
+                    </div>
                     <h3>E-Learning management systems & Training Solutions:</h3>
                     <div class="skill-items">
                        <p>
@@ -2100,6 +2137,9 @@
 
 
                 <div class="skill-category">
+                    <div class="skill-image-container">
+                        <img src="{{ asset('media/images/services_images/mobile_app_services.jpeg')}}" alt="web development services">
+                    </div>
                     <h3>Mobile Application Development & Maintenance:</h3>
                     <div class="skill-items">
                        <p>
@@ -2134,6 +2174,9 @@
 
 
                 <div class="skill-category">
+                    <div class="skill-image-container">
+                        <img src="{{ asset('media/images/services_images/erp_services.jpeg')}}" alt="web development services">
+                    </div>
                     <h3>ERP & Business System Configuration and deployment</h3>
                     <div class="skill-items">
                        <p>
@@ -2159,6 +2202,9 @@
                 </div>
 
                 <div class="skill-category">
+                    <div class="skill-image-container">
+                        <img src="{{ asset('media/images/services_images/system_admin_services.jpeg')}}" alt="web development services">
+                    </div>
                     <h3>System Administration & Server Management:</h3>
                     <div class="skill-items">
                        <p>
@@ -2193,6 +2239,9 @@
                 </div>
 
                 <div class="skill-category">
+                    <div class="skill-image-container">
+                        <img src="{{ asset('media/images/services_images/support_services.jpeg')}}" alt="web development services">
+                    </div>
                     <h3>Technical support and user training</h3>
                     <div class="skill-items">
                        <p>
