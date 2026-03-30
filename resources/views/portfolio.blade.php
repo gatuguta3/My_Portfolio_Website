@@ -1660,9 +1660,11 @@
                             <div class="skill-info">
                                 <span>Python</span>
                                 <span>95%</span>
+                               
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 95%"></div>
+                                
                             </div>
                         </div>
                         <div class="skill-item">
@@ -1911,7 +1913,7 @@
                         <p class="project-employer-description"><span class="services-info-lable"> Client - </span>  Clarence Matheny Leadership Training Institute . Limuru </p>
                         <div class="project-tags">
                             <span class="project-tag">Php</span>
-                            <span class="project-tag">Javascript</span>
+                            <span class="project-tag">Moodle</span>
                             <span class="project-tag">MySQL</span>
                         </div>
                     </div>
@@ -2023,9 +2025,10 @@
                             A modern portfolio website with smooth animations and responsive design
                         </p>
                         <div class="project-tags">
-                            <span class="project-tag">HTML/CSS</span>
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">GSAP</span>
+                            <span class="project-tag">Php</span>
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">Css</span>
+                            <span class="project-tag">Javascript</span>
                         </div>
                     </div>
                 </div>
@@ -2045,7 +2048,8 @@
 
                 <div class="skill-category">
                      <div class="skill-image-container">
-                        <img src="{{ asset('media/images/services_images/web_services.jpeg')}}" alt="web development services">
+                        <img src="{{ asset('media/images/services_images/web_services.jpeg')}}" alt="web development services" href="{{ route('projects.cmm') }}">
+                        
                     </div>
                     <h3>Website & E-commerce Development:</h3>
                     <div class="skill-items">
@@ -2312,8 +2316,11 @@
                     <p>
                         Junior Backend Developer  
                     </p>
+                     <p>
+                        Junior Odoo Developer  
+                    </p>
                     <p>
-                        Junior ERP consultant  
+                        Junior ERP consultant  (Odoo 17)
                     </p>
                     <p>
                         Android developer  
@@ -2358,6 +2365,10 @@
 
                     <p>
                         Website developer  
+                    </p>
+
+                    <p>
+                        Odoo developer  (Odoo 17)
                     </p>
 
                     <p>
@@ -2425,7 +2436,7 @@
                         </div>
                         <div class="contact-text">
                             <h4>Location</h4>
-                            <p>Gurunanak, Nairobi , Kenya</p>
+                            <p>Pangani, Nairobi , Kenya</p>
                         </div>
                     </div>
                 </div>
@@ -2456,7 +2467,9 @@
                 <div>
                     <a href="/" class="footer-logo">Portfolio</a>
                     <p class="footer-description">
-                        Creating functional and scalable software solutions.
+                         I am a backend developer with over 2 years of experience in software development.
+                         My expertise encompasses on backend development, primarily using PHP and Python,
+                         ,With this extensive experience, I am confident in my ability to adapt to any environment and successfully implement world-class solutions for any organization.
                     </p>
                 </div>
                 
