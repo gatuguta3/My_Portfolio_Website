@@ -481,7 +481,7 @@
                 grid-template-columns: 1fr;
             }
         }
-</style>
+    </style>
     
    
     

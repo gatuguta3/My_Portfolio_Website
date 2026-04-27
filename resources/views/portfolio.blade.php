@@ -464,9 +464,11 @@
 
                     .skills-grid {
                         display: grid;
-                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
                         gap: 2rem;
-                        margin-top: 3rem;
+                        margin-top: 3rem;                        
+                        margin-left: auto;
+                        margin-right: auto;
                     }
 
                     .skill-category {
@@ -1538,7 +1540,7 @@
                         Attained total marks  : 374
                     </p>
                     <p>
-                        2007 - 2016
+                        2008 - 2016
                     </p>
                     <p>
                         Nyana Hills Academy
@@ -2052,48 +2054,55 @@
                         
                     </div>
                     <h3>Website & E-commerce Development:</h3>
+
                     <div class="skill-items">
-                       <p>
-                        I build and customize websites and e-commerce platforms using popular content management systems like WordPress and WooCommerce. I create visually appealing and user-friendly websites that are optimized for performance and search engines, ensuring a seamless online presence for businesses and individuals.
-                        For custom web applications, I utilize frameworks like Laravel and open-source technologies  like  Odoo to develop robust and scalable solutions tailored to specific business needs. Whether it's a simple informational website or a complex e-commerce platform, I have the skills and experience to deliver high-quality results that meet client requirements and exceed expectations.
-                    </p>
+                        <p>
+                            I build and customize websites and e-commerce platforms using popular content management systems like WordPress and WooCommerce. I create visually appealing and user-friendly websites that are optimized for performance and search engines, ensuring a seamless online presence for businesses and individuals.
+                            For custom web applications, I utilize frameworks like Laravel and open-source technologies  like  Odoo to develop robust and scalable solutions tailored to specific business needs. Whether it's a simple informational website or a complex e-commerce platform, I have the skills and experience to deliver high-quality results that meet client requirements and exceed expectations.
+                        </p>
 
-                    <h5>
-                        Who might need this service ?
-                    </h5>
+                        <h5>
+                            Who might need this service ?
+                        </h5>
 
-                    <p><span class="services-info-lable">Clinic facilities - </span>
-                         For clinic facilities that are looking to establish an online presence or enhance their existing website, I can provide comprehensive web development services.
-                          This includes designing and developing a user-friendly website that showcases their services, provides essential information to patients, and allows for easy appointment scheduling.
-                           Additionally, I can integrate features such as online payment options and patient portals to improve the overall patient experience and streamline clinic operations.
-                    </p>
-                    <p><span class="services-info-lable">Production facilities / businesses - </span>
-                            For production facilities or businesses that want to expand their reach and sell products online, I can develop customized e-commerce platforms .
-                            These business are like bakeries, shirt printing shops , branding and printing  companies , Welding and fabrication workshops , furniture making workshops .
-                            I can create  user friendly and well detailed websites that can inform visiting customers clearly what they do ,the products they sell and can enable customers to book their services or order goods
-                    </p>
-                    <p><span class="services-info-lable">Service providers / businesses - </span>
-                         For service providers or businesses that want to establish an online presence and attract more customers, I can develop customized websites that effectively showcase their services and provide essential information to potential clients.
-                          These businesses include  salons, barbershops, spas, gyms, fitness centers , event management companies , hotels and lodges , transport and logistics companies etc.
-                           I can create visually appealing and user-friendly websites that highlight their services, provide contact information, and allow for easy appointment scheduling or service booking, ultimately helping them grow their customer base and increase revenue.
-                    </p>
-                    <p><span class="services-info-lable">Wholesalers and Retailer businesses - </span>
-                            For wholesalers and retailers that want to expand their reach and sell products online, I can develop customized e-commerce platforms.
-                            These businesses include  supermarkets, wholesale shops , retail shops , pharmacies , hardware shops , agrovet shops etc.
-                            I can create user-friendly and well-detailed websites that inform visiting customers clearly about the products they sell, provide an easy-to-navigate online catalog, and enable customers to place orders or make purchases directly through the website, ultimately helping them increase sales and grow their business.
-                    </p>
-                    <p><span class="services-info-lable">Non Governmental Organizations (NGOs) - </span>
-                            For NGOs that want to establish an online presence and effectively communicate their mission and impact, I can develop customized websites that showcase their work and engage with supporters.
-                            I can create visually appealing and user-friendly websites that highlight their projects, provide information about their initiatives, and allow for easy donation options or volunteer sign-ups, ultimately helping them raise awareness and garner support for their cause.
-                    </p>
-                    <p><span class="services-info-lable">Researchers - </span>
-                        Researchers being very detail oriented individuals  who need to share their resarch findings with everyone including the knowledgeable individuals and the random users looking for infomation online , 
-                        I can develop customized websites that effectively communicate their research findings and engage with a wider audience.
-                        They still can highlight their research projects, provide detailed information about their methodologies and results, and allow for easy sharing of their work through social media or academic platforms, ultimately helping them increase the visibility and impact of their research.
-                    </p>
-                    
+                        <p><span class="services-info-lable">Clinic facilities - </span>
+                            For clinic facilities that are looking to establish an online presence or enhance their existing website, I can provide comprehensive web development services.
+                            This includes designing and developing a user-friendly website that showcases their services, provides essential information to patients, and allows for easy appointment scheduling.
+                            Additionally, I can integrate features such as online payment options and patient portals to improve the overall patient experience and streamline clinic operations.
+                        </p>
+                        <p><span class="services-info-lable">Production facilities / businesses - </span>
+                                For production facilities or businesses that want to expand their reach and sell products online, I can develop customized e-commerce platforms .
+                                These business are like bakeries, shirt printing shops , branding and printing  companies , Welding and fabrication workshops , furniture making workshops .
+                                I can create  user friendly and well detailed websites that can inform visiting customers clearly what they do ,the products they sell and can enable customers to book their services or order goods
+                        </p>
+                        <p><span class="services-info-lable">Service providers / businesses - </span>
+                            For service providers or businesses that want to establish an online presence and attract more customers, I can develop customized websites that effectively showcase their services and provide essential information to potential clients.
+                            These businesses include  salons, barbershops, spas, gyms, fitness centers , event management companies , hotels and lodges , transport and logistics companies etc.
+                            I can create visually appealing and user-friendly websites that highlight their services, provide contact information, and allow for easy appointment scheduling or service booking, ultimately helping them grow their customer base and increase revenue.
+                        </p>
+                        <p><span class="services-info-lable">Wholesalers and Retailer businesses - </span>
+                                For wholesalers and retailers that want to expand their reach and sell products online, I can develop customized e-commerce platforms.
+                                These businesses include  supermarkets, wholesale shops , retail shops , pharmacies , hardware shops , agrovet shops etc.
+                                I can create user-friendly and well-detailed websites that inform visiting customers clearly about the products they sell, provide an easy-to-navigate online catalog, and enable customers to place orders or make purchases directly through the website, ultimately helping them increase sales and grow their business.
+                        </p>
+                        <p><span class="services-info-lable">Non Governmental Organizations (NGOs) - </span>
+                                For NGOs that want to establish an online presence and effectively communicate their mission and impact, I can develop customized websites that showcase their work and engage with supporters.
+                                I can create visually appealing and user-friendly websites that highlight their projects, provide information about their initiatives, and allow for easy donation options or volunteer sign-ups, ultimately helping them raise awareness and garner support for their cause.
+                        </p>
+                        <p><span class="services-info-lable">Researchers - </span>
+                            Researchers being very detail oriented individuals  who need to share their resarch findings with everyone including the knowledgeable individuals and the random users looking for infomation online , 
+                            I can develop customized websites that effectively communicate their research findings and engage with a wider audience.
+                            They still can highlight their research projects, provide detailed information about their methodologies and results, and allow for easy sharing of their work through social media or academic platforms, ultimately helping them increase the visibility and impact of their research.
+                        </p>
+
+                              
 
                     </div>
+                    
+                    
+                    <button class="view-more-btn" data-target="content-2">View More</button>
+
+                    
                 </div>
 
                 <div class="skill-category">

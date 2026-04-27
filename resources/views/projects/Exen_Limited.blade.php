@@ -523,7 +523,7 @@
                 <p>
                   A complete e-commerce mobile application fully integrated with an admin web to oversee all the orders, users, products and categories.
                    The mobile application is built with flutter and the backend is built with php and mysql database. The project was built for Exen Limited
-                    a Kenyan based company that provides e-commerce solutions to businesses. The project was built as a final year university project and it
+                    a Kenyan based company that deals with installation of cabinetries , closets and bathroom facilities. The project was built as a final year university project and it
                      was a great learning experience for me as a developer. I was able to learn how to build a complete e-commerce application from scratch 
                      and also how to integrate it with an admin web. The project was a success and it was well received by the university.
                 </p>
@@ -539,11 +539,11 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">Team Size</span>
-                        <span class="info-value">1 Developers</span>
+                        <span class="info-value">1 Developer</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Role</span>
-                        <span class="info-value">Sole Developer</span>
+                        <span class="info-value">Full Stack Developer</span>
                     </div>
                 </div>
             </div>
@@ -569,7 +569,7 @@
                         <line x1="3" y1="10" x2="21" y2="10"></line>
                     </svg>
                 </div>
-                <h3>Task Management</h3>
+                <h3>Service Scheduling</h3>
                 <p>Create, assign, and track tasks with priorities, due dates, and attachments. Organize tasks into projects and categories.</p>
             </div>
             
@@ -582,7 +582,7 @@
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                 </div>
-                <h3>Team Collaboration</h3>
+                <h3>Process monitoring</h3>
                 <p>Real-time updates, comments, and mentions. Team members can collaborate seamlessly on shared tasks and projects.</p>
             </div>
             
@@ -593,7 +593,7 @@
                         <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
                 </div>
-                <h3>Time Tracking</h3>
+                <h3>Order Tracking</h3>
                 <p>Track time spent on tasks with built-in timer. Generate reports to analyze productivity and project hours.</p>
             </div>
             
@@ -605,7 +605,7 @@
                         <line x1="12" y1="22" x2="12" y2="12"></line>
                     </svg>
                 </div>
-                <h3>File Sharing</h3>
+                <h3>Inventory Management</h3>
                 <p>Upload and share files directly within tasks. Support for images, documents, and other file types.</p>
             </div>
             
@@ -636,7 +636,7 @@
                         <path d="M16 18h.01"></path>
                     </svg>
                 </div>
-                <h3>Kanban Board</h3>
+                <h3>Invoice Generation</h3>
                 <p>Visual task management with drag-and-drop Kanban boards. Customize columns to match your workflow.</p>
             </div>
         </div>
@@ -762,7 +762,7 @@
             <div class="challenge-item">
                 <div class="challenge-number">02</div>
                 <div class="challenge-content">
-                    <h3>Complex Task Relationships</h3>
+                    <h3>Mobile wallet Integration</h3>
                     <p><strong>Challenge:</strong> Managing complex relationships between tasks, subtasks, dependencies, and assignments.</p>
                     <p><strong>Solution:</strong> Designed a robust database schema with polymorphic relationships. Implemented eager loading to optimize queries.</p>
                 </div>
@@ -806,8 +806,8 @@
         <div class="testimonial">
             <p>"The CMM Task Management App has transformed how our team works. It's intuitive, powerful, and has significantly improved our productivity."</p>
             <div class="testimonial-author">
-                <strong>Jane Smith</strong>
-                <span>Project Manager, Tech Corp</span>
+                <strong>David Kaje</strong>
+                <span>Project Supervisor , KEMU</span>
             </div>
         </div>
     </div>

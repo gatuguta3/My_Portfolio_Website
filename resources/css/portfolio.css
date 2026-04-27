@@ -413,9 +413,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: 2rem;
     margin-top: 3rem;
+    max-width: 1100px; /* Optional: limit width */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .skill-category {
@@ -929,4 +932,71 @@ h1, h2, h3, h4, h5, h6 {
     .contact-content {
         gap: 2rem;
     }
+}
+
+
+/* Custom Button Styles */
+.custom-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    background-color: transparent;
+    border: 2px solid #3b82f6; /* Blue border */
+    border-radius: 9999px; /* Fully rounded corners */
+    color: #22c55e; /* Green text */
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: rgba(59, 130, 246, 0.05); /* Light blue background on hover */
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+.custom-btn:active {
+    transform: translateY(0);
+}
+
+/* Icon styling */
+.custom-btn .btn-icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    color: #22c55e; /* Green icon */
+    transition: transform 0.3s ease;
+}
+
+.custom-btn:hover .btn-icon {
+    transform: translateX(3px); /* Icon moves right on hover */
+}
+
+/* Optional: Different button sizes */
+.custom-btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+}
+
+.custom-btn-lg {
+    padding: 0.75rem 1.75rem;
+    font-size: 1rem;
+}
+
+.custom-btn-lg .btn-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+/* Alternative color schemes if needed */
+.custom-btn-green-border {
+    border-color: #22c55e;
+    color: #22c55e;
+}
+
+.custom-btn-green-border .btn-icon {
+    color: #22c55e;
 }
